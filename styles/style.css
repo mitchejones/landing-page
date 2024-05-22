@@ -26,6 +26,12 @@
     font-weight: bold;
 }
 
+.text .hero-secondary,
+ul {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
 h1 {
     display: flex;
     flex: 1;
