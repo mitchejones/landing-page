@@ -40,7 +40,7 @@
 
 .placeholder .placeholder-text {
     color: #e5e7eb;
-    padding: 80px;
+    padding: 120px;
 }
 
 .text .hero-main {
@@ -79,5 +79,4 @@ button {
     border-radius: 8px;
     font-weight: bold;
     font-size: 16px;
-
 }
