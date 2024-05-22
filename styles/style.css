@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Roboto, "Times New Roman", sans-serif;
+    font-family: Helvetica, "Times New Roman", sans-serif;
 }
 
 .header {
@@ -40,7 +40,9 @@
 
 .placeholder .placeholder-text {
     color: #e5e7eb;
-    padding: 120px;
+    padding: 100px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .text .hero-main {
@@ -91,14 +93,19 @@ button {
 }
 
 .item {
-    width: 128px;
-    height: 128px;
+    width: 148px;
+    height: 148px;
     border: 4px solid #3882f6;
     border-radius: 16px;
 }
 
 .info-container {
-    width: 128px;
+    width: 156px;
+    margin-bottom: 64px;
+}
+
+.info-container p {
+    padding: 4px;
 }
 
 .info-header {
@@ -108,4 +115,29 @@ button {
     font-size: 36px;
     font-weight: bold;
     color: #1f2937;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex: 1;
+    gap: 16px;
+    padding-top: 128px;
+    padding-left: 256px;
+    padding-right: 256px;
+    padding-bottom: 128px;
+    flex-direction: column;
+}
+
+.quote .quote-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.quote .quote-attribute {
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
 }
