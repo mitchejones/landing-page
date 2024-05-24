@@ -170,3 +170,16 @@ button {
     border-radius: 8px;
     padding: 12px 34px;
 }
+
+.footer {
+    display: flex;
+    flex: 1;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+
+#copyright {
+    color: #e5e7eb;
+}
